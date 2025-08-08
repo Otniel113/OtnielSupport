@@ -189,3 +189,36 @@ p.fs-6 {
 
 /* Ensure no accidental page scrollbars due to 1px rounding */
 body { overflow: hidden; }
+
+@media (max-width: 576px) {
+    /* Move the card grid slightly upward */
+    .container {
+        padding-top: 4px;
+    }
+
+    /* Make cards taller on mobile */
+    .card {
+        height: clamp(150px, 30vh, 240px);
+    }
+
+    /* Enlarge visuals and nudge content toward the top */
+    .card-body {
+        padding-top: 0.4rem;   /* less top padding to move content up */
+        padding-bottom: 0.8rem;
+    }
+
+    .logo {
+        width: clamp(56px, 9vh, 88px);
+        height: clamp(56px, 9vh, 88px);
+    }
+
+    .card-title {
+        font-size: clamp(1.05rem, 4.2vw, 1.3rem);
+        margin-bottom: clamp(0.35rem, 1.6vh, 0.6rem);
+    }
+
+    .card-text.small {
+        font-size: clamp(0.9rem, 3.6vw, 1.1rem);
+        line-height: 1.35;
+    }
+}
