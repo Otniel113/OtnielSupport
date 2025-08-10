@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
             trakteerPayment: "QRIS, Bank Transfer, E-Wallet, Credit/Debit Card (All Indonesian)",
             saweriaPayment: "QRIS, GoPay, OVO, DANA, LinkAja",
             kofiPayment: "PayPal, Visa, Mastercard",
-            patreonPayment: "PayPal, Visa, Mastercard, Discover, JCB, Diners Club, Apple Pay, Venmo"
+            patreonPayment: "PayPal, Credit/Debit Card, Apple Pay (USD), Venmo (US)"
         },
         id: {
             title: "Dukung Saya!",
@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
             trakteerPayment: "QRIS, Transfer Bank, E-Wallet, Kartu Kredit/Debit",
             saweriaPayment: "QRIS, GoPay, OVO, DANA, LinkAja",
             kofiPayment: "PayPal, Visa, Mastercard",
-            patreonPayment: "PayPal, Visa, Mastercard, Discover, JCB, Diners Club, Apple Pay, Venmo"
+            patreonPayment: "PayPal, Kartu Kredit/Debit, Apple Pay (USD)"
         }
     };
 

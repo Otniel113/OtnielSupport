@@ -122,8 +122,8 @@ h1 {
 }
 
 p.fs-6 {
-    font-size: clamp(0.85rem, 2.6vw, 1rem) !important;
-    line-height: 1.35;
+    font-size: clamp(0.92rem, 2.6vw, 1.2rem) !important;
+    line-height: 1.4;
     color: #666;
 }
 
@@ -162,6 +162,11 @@ p.fs-6 {
 
     .card-text.small {
         font-size: clamp(0.85rem, 1.4vw, 1rem);
+    }
+
+    .logo {
+        width: clamp(64px, 10vh, 100px);
+        height: clamp(64px, 10vh, 100px);
     }
     /* Headings already clamp; no overrides needed */
 }
